@@ -1,0 +1,75 @@
+body{
+    background-image: url(../imagenes/fondoindex.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@keyframes animacion_test{
+    from{
+        background-color:transparent;
+    }
+    to{
+        background-color: rgba(128, 128, 55, 0.521);
+    }
+}
+@keyframes animacion_test2{
+    from{
+        background-color:transparent;
+    }
+    to{
+        background-color: blue;
+    }
+}
+a:link{
+    text-decoration: none;
+    color: blackite;
+    transition: all 500ms ease;
+}
+a:visited{
+    color:rgb(128, 172, 9);
+    text-decoration: none;
+}
+
+@media (min-width: 600px) {
+    .enlaces {
+    padding: 20px;
+    font-size: 1.5em;
+    }
+}
+@media (min-width: 800px) {
+    .enlaces {
+    padding: 40px;
+    font-size: 2em;
+    }
+}
+
+footer{
+    text-align: center;
+    background-image:url(../imagenes/verde.jfif) ;
+    padding: auto;
+}
+
+.tabla{
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    height: 200px;
+     justify-content: center;
+    align-items: center;
+    animation-name: animacion_test;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+.titulo{
+    width: 100%;
+    text-align: center;
+    height: 200px;
+     justify-content: center;
+    align-items: center;
+    animation-name: animacion_test2;
+    animation-duration: 5s;
+    animation-direction:normal;
+    animation-iteration-count:initial;
+    
+}
